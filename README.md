@@ -1,17 +1,17 @@
-🛡️ Cybertr0n SOC Infrastructure Build – Phase 1
+#🛡️ Cybertr0n SOC Infrastructure Build – Phase 1
 
 Author: Orinea Mulaudzi
 Status: Operational
 Focus Area: SOC Visibility & Endpoint Telemetry
 Tools: Wazuh SIEM/XDR, Ubuntu Linux, Windows 10/11, PowerShell
 
-📌 Project Overview
+#📌 Project Overview
 
 This project represents Phase 1 of the Cybertr0n SOC Infrastructure Build, focused on eliminating security blind spots by establishing centralized visibility over a Windows endpoint using an open-source SIEM/XDR platform.
 
 The objective of this phase was not alerting or incident response, but foundational SOC visibility — ensuring reliable telemetry, secure agent communication, and verifiable data flow between endpoints and the SIEM manager.
 
-🎯 Objectives
+#🎯 Objectives
 
 Deploy a centralized Wazuh SIEM/XDR Manager
 
@@ -23,7 +23,7 @@ Enable core SOC visibility capabilities with zero licensing cost
 
 Produce operational proof suitable for SOC documentation
 
-🏗️ Architecture
+#🏗️ Architecture
 
 The lab follows a Manager–Agent architecture, commonly used in enterprise SOC environments:
 
@@ -33,7 +33,7 @@ Windows Endpoint	Monitored Agent	Windows 10/11	Active
 
 This design enables centralized analysis with decentralized data collection, mirroring real-world SOC deployments.
 
-🛠️ Implementation Summary
+#🛠️ Implementation Summary
 
 Phase 1 was executed across three core stages:
 
@@ -55,7 +55,7 @@ Manually authenticated agent using unique auth keys
 
 Established encrypted TLS communication over port 1514
 
-🔍 Security Capabilities Enabled
+#🔍 Security Capabilities Enabled
 
 The following SOC-relevant capabilities were successfully activated:
 
@@ -71,7 +71,7 @@ Baseline auditing against CIS benchmarks
 Vulnerability Detection
 Continuous CVE scanning to identify outdated or vulnerable software
 
-🧪 Verification & Proof of Functionality
+#🧪 Verification & Proof of Functionality
 
 Operational verification was performed to ensure reliability beyond the web interface:
 
@@ -85,7 +85,7 @@ Backend health confirmed through CLI and log analysis (ossec.log)
 
 Screenshots included in the PDF provide availability, integrity, and data-flow proof.
 
-🧠 Key Learning Outcomes
+#🧠 Key Learning Outcomes
 
 This phase emphasized real-world troubleshooting rather than guided installation:
 
